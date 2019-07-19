@@ -6,10 +6,10 @@ To run this simple app,please follow these steps-
 
 3. Set proxies if necessary
 
-4. Run this command 
+4. Run this command -> 
 yarn install 
 
-5. After above command ran successfully run 
+5. After above command ran successfully run -> 
 npm start
 
 6. This app runs on port 3000 by default,please make sure it is not running other processes
