@@ -1,4 +1,4 @@
-To run this simple app,please follow following steps-
+To run this simple app,please follow these steps-
 
 1. Install NodeJS & yarn based on your platform type & add to path if necessary.
 
@@ -14,4 +14,4 @@ npm start
 
 6. This app runs on port 3000 by default,please make sure it is not running other processes
 
-7.Protected link will be displayed only after login through Okta will be successful
+Protected link will be displayed only if login through Okta is successful
