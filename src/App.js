@@ -17,7 +17,6 @@ class App extends Component {
       <Router>
         <Security issuer='https://dev-495614.okta.com/oauth2/default'
                   client_id='0oatxlfsiOxBILVvQ356'
-                  response_type={['code']}
                   redirect_uri={window.location.origin + '/implicit/callback'}
                   onAuthRequired={onAuthRequired} >
           <Route path='/' exact={true} component={Home} />

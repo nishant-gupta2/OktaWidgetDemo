@@ -7,7 +7,6 @@ import { withAuth } from '@okta/okta-react';
 
 export default withAuth(class Login extends Component {
   constructor(props) {
-	  console.log(props);
     super(props);
     this.onSuccess = this.onSuccess.bind(this);
     this.onError = this.onError.bind(this);
@@ -30,9 +29,6 @@ export default withAuth(class Login extends Component {
 
   onSuccess(res) {
     if (res.status === 'SUCCESS') {
-console.log("==SUCCESS==");
-		console.log(res.session);
-	    console.log(this.props.auth);
       return this.props.auth.redirect({
         sessionToken: res.session.token
       });
