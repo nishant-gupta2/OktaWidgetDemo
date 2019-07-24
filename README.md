@@ -14,4 +14,6 @@ npm start
 
 6. This app runs on port 3000 by default,please make sure it is not running other processes
 
+Please use this creds for login-
+someemail@hpe.com / Password@123
 Protected link will be displayed only if login through Okta is successful
