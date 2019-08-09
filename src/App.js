@@ -15,13 +15,13 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Security issuer='https://dev-495614.okta.com/oauth2/default'
-                  client_id='0oatxlfsiOxBILVvQ356'
+        <Security issuer='https://dev-631359.okta.com/default'
+                  client_id='0oa1363wazZjRL5Yn357'
                   redirect_uri={window.location.origin + '/implicit/callback'}
                   onAuthRequired={onAuthRequired} >
           <Route path='/' exact={true} component={Home} />
           <SecureRoute path='/protected' component={Protected} />
-          <Route path='/login' render={() => <Login baseUrl='https://dev-495614.okta.com'/>} />
+          <Route path='/login' render={() => <Login baseUrl='https://dev-631359.okta.com'/>} />
           <Route path='/implicit/callback' component={ImplicitCallback} />
         </Security>
       </Router>
